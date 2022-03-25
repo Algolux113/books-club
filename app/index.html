@@ -1,18 +1,30 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Книжный клуб Skyori</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="bootstrap/js/jquery-3.5.1.slim.min.js"></script>
 
+  {{content-for "head"}}
+
+  <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
+  <link integrity="" rel="stylesheet" href="{{rootURL}}assets/books-club.css">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/tagsinput.css">
   <link rel="stylesheet" href="css/styles.css">
+
+  {{content-for "head-footer"}}
 </head>
 
-<body class="home-page">
+<body>
+  {{content-for "body"}}
+
+  <script src="{{rootURL}}assets/vendor.js"></script>
+  <script src="{{rootURL}}assets/books-club.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="js/tagsinput.js"></script>
@@ -29,6 +41,8 @@
       });
     });
   </script>
+
+  {{content-for "body-footer"}}
 </body>
 
 </html>
