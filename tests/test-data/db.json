@@ -1,0 +1,32 @@
+{
+  "speakers": [
+    {
+      "id": 1,
+      "firstName": "Azaza",
+      "lastName": "Trololo",
+      "patronymic": "фыва"
+    },
+    {
+      "firstName": "Роман",
+      "lastName": "Капканниковвd",
+      "patronymic": "Викторовичd",
+      "id": 2
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "name": "Книга",
+      "author": "Афтор",
+      "pagesCount": 228,
+      "coverUrl": "images/book-cover.jpg",
+      "descriptionUrl": "sdf",
+      "tags": [
+        "sdf",
+        "fsdf",
+        "sdf"
+      ],
+      "avgRating": 3.3
+    }
+  ]
+}
