@@ -2,8 +2,13 @@ import Service from '@ember/service';
 import ENV from 'books-club/config/environment';
 
 export default Service.extend({
-  getBooks() {
-    return fetch(`${ENV.backendURL}/books`).then((response) => response.json());
+  getBooks(search) {
+    let qyeryParams = '';
+    if (search) {
+      qyeryParams = `?q=${search}`;
+    }
+
+    return fetch(`${ENV.backendURL}/books${qyeryParams}`).then((response) => response.json());
   },
 
   getBook(id) {
@@ -18,6 +23,20 @@ export default Service.extend({
       },
       body: JSON.stringify(book)
     });
+  },
+
+  updateBook(book) {
+    return fetch(`${ENV.backendURL}/books/${book.id}`, {
+      method: 'PATCH',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(book)
+    });
+  },
+
+  deleteBook(book) {
+    return fetch(`${ENV.backendURL}/books/${book.id}`, { method: 'DELETE'});
   },
 
   getSpeakers(search) {
@@ -55,7 +74,5 @@ export default Service.extend({
 
   deleteSpeaker(speaker) {
     return fetch(`${ENV.backendURL}/speakers/${speaker.id}`, { method: 'DELETE'});
-  },
-
-
+  }
 });

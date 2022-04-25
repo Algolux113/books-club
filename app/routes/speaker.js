@@ -4,7 +4,6 @@ import { Promise } from 'rsvp';
 import { later } from '@ember/runloop';
 
 export default Route.extend({
-
   dataService: service('data'),
 
   model({ search }) {

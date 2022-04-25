@@ -16,17 +16,33 @@
   "books": [
     {
       "id": 1,
-      "name": "Книга",
-      "author": "Афтор",
+      "name": "Зов Ктулху",
+      "author": "Лавкрафт Говард Филлипс",
       "pagesCount": 228,
-      "coverUrl": "images/book-cover.jpg",
-      "descriptionUrl": "sdf",
-      "tags": [
-        "sdf",
-        "fsdf",
-        "sdf"
-      ],
-      "avgRating": 3.3
+      "coverUrl": "https://cdn1.ozone.ru/s3/multimedia-u/wc1200/6025550490.jpg",
+      "descriptionUrl": "https://www.ozon.ru/product/2020-zov-ktulhu-138136488/?asb=BD49Kc9qr7CPGDz0fBRuodrg82LRV4k2xlunogECmVs%253D&asb2=OR2mG9C3EnIO6PbJxytOifOZll28xf7_EHxbXkvzsR9INm-57hPPoBqPKowve_88&sh=uIMTexnBhw",
+      "tags": "#3",
+      "avgRating": "3"
+    },
+    {
+      "name": "Метро 2033",
+      "author": "Глуховский Дмитрий Алексеевич",
+      "pagesCount": "354",
+      "coverUrl": "https://cdn1.ozone.ru/s3/multimedia-c/wc1200/6152214420.jpg",
+      "tags": "#2",
+      "avgRating": "4",
+      "id": 2,
+      "descriptionUrl": "https://www.ozon.ru/product/metro-2033-gluhovskiy-dmitriy-alekseevich-250451666/?asb=vz1Hg51TO3LwEFlWQvd9qu0%252BxGKN6a0s%252BCtFhI1HF7MWF%252BKlHzERrHUTtyS4g5%252BY&asb2=NZ3ayYnVKRDSz1i3H3KReDU7uV5IrzPmPYblXTUWIwTzm_nmLnNRNvPORgJ_H7xPytdbMzF7xCjjlozJT7Ed53NKyI4pFFJHAfU1Jky7h9EoxQSHjqfqX0a_Q6DVMS4BEtGRuA777YTCgXChufkong&sh=uIMTezDcPw"
+    },
+    {
+      "name": "Ведьмак. Последнее желание",
+      "author": "Сапковский Анджей",
+      "pagesCount": "123",
+      "coverUrl": "https://cdn1.ozone.ru/s3/multimedia-5/wc1200/6064270157.jpg",
+      "descriptionUrl": "https://www.ozon.ru/product/vedmak-poslednee-zhelanie-sapkovskiy-andzhey-250436727/?asb=9ASLsRVTO6Y6M7j4sy1e9QKzY4HSHn5yqafmSxceVE1FxKNFbx6UJwyJEbml6HnN&asb2=D-1T8LvwVY_XrWrp96wWQKVJw5Liff63iwKGLe8SW1ulncd42o-dg9xC6OQMUfQRSj-5w-tRfbXlniTOO6NuGIz8sGJWUlAx4E3fZd9KK3XYhgXFSrScDDHUT-1mcscDJ-l3r83zDHIDBbzmS7ra6g&sh=uIMTez66rw",
+      "tags": "#1",
+      "avgRating": "5",
+      "id": 3
     }
   ]
 }
