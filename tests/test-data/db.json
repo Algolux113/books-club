@@ -4,12 +4,14 @@
       "id": 1,
       "firstName": "Azaza",
       "lastName": "Trololo",
-      "patronymic": "фыва"
+      "patronymic": "фыва",
+      "type": "speaker"
     },
     {
-      "firstName": "Роман",
+      "firstName": "Роман1",
       "lastName": "Капканниковвd",
       "patronymic": "Викторовичd",
+      "type": "speaker",
       "id": 2
     }
   ],

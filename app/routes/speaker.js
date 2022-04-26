@@ -7,6 +7,7 @@ export default Route.extend({
   dataService: service('data'),
 
   model({ search }) {
+    /*
     return new Promise((resolve, reject) => {
       later(async () => {
         try {
@@ -20,6 +21,8 @@ export default Route.extend({
         }
       }, 1000);
     });
+    */
+    return this.get('store').findAll('speaker');
   },
 
   actions: {

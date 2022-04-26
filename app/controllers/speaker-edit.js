@@ -6,7 +6,16 @@ export default Controller.extend({
 
   actions: {
     async saveSpeaker(speaker) {
-      await this.get("dataService").updateSpeaker(speaker);
+      // await this.get("dataService").updateSpeaker(speaker);
+
+      let speakerModel = this.get('model');
+
+      speakerModel.set('firstName', speaker.firstName);
+      speakerModel.set('lastName', speaker.lastName);
+      speakerModel.set('patronymic', speaker.patronymic);
+
+      await speakerModel.save();
+
       this.transitionToRoute('speaker');
     }
   }

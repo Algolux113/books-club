@@ -21,8 +21,9 @@ export default Controller.extend({
     },
 
     async deleteSpeaker(speaker) {
-      await this.get("dataService").deleteSpeaker(speaker);
-      this.refresh();
+      // await this.get("dataService").deleteSpeaker(speaker);
+
+      await speaker.destroyRecord();
     },
 
     searchSpeaker(e) {
