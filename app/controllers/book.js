@@ -21,8 +21,10 @@ export default Controller.extend({
     },
 
     async deleteBook(book){
-      await this.get("dataService").deleteBook(book);
-      this.refresh();
+      // await this.get("dataService").deleteBook(book);
+      // this.refresh();
+
+      await book.destroyRecord();
     },
 
     searchBook(e) {

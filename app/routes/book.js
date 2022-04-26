@@ -7,19 +7,20 @@ export default Route.extend({
   dataService: service('data'),
 
   model({ search }) {
-    return new Promise((resolve, reject) => {
-      later(async () => {
-        try {
-          let books = search
-            ? await this.get("dataService").getBooks(search)
-            : await this.get("dataService").getBooks();
-          resolve(books);
-        }
-        catch (e) {
-          reject(`Connection failed: ${e.message}`);
-        }
-      }, 1000);
-    });
+    // return new Promise((resolve, reject) => {
+    //   later(async () => {
+    //     try {
+    //       let books = search
+    //         ? await this.get("dataService").getBooks(search)
+    //         : await this.get("dataService").getBooks();
+    //       resolve(books);
+    //     }
+    //     catch (e) {
+    //       reject(`Connection failed: ${e.message}`);
+    //     }
+    //   }, 1000);
+    // });
+    return this.get('store').findAll('book');
   },
 
   actions: {

@@ -4,14 +4,12 @@
       "id": 1,
       "firstName": "Azaza",
       "lastName": "Trololo",
-      "patronymic": "фыва",
-      "type": "speaker"
+      "patronymic": "фыва"
     },
     {
       "firstName": "Роман1",
       "lastName": "Капканниковвd",
       "patronymic": "Викторовичd",
-      "type": "speaker",
       "id": 2
     }
   ],
@@ -45,6 +43,16 @@
       "tags": "#1",
       "avgRating": "5",
       "id": 3
+    },
+    {
+      "name": "Я - легенда",
+      "author": "Матесон Ричард",
+      "coverUrl": "https://cdn1.ozone.ru/s3/multimedia-3/wc1200/6162132051.jpg",
+      "descriptionUrl": "https://www.ozon.ru/product/ya-legenda-143190588/?asb=rO0bD8%252FTWosd1HCAAiddKh%252B41r17wnh3sFDFKr%252BWuSQ%253D&asb2=zgRpvhmkB_cHnBB6Q3he93Zvu1oxySwMIvo7_mtSMb5E-Xw7h_GtUOHMehn8TLcE&sh=uIMTeykKVw",
+      "tags": "#4",
+      "pagesCount": 421,
+      "avgRating": 2,
+      "id": 4
     }
   ]
 }
