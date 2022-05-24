@@ -7,5 +7,6 @@ export default DS.Model.extend({
   descriptionUrl: DS.attr('string'),
   tags: DS.attr('string'),
   pagesCount: DS.attr('number'),
-  avgRating: DS.attr('number')
+  avgRating: DS.attr('number'),
+  report: DS.belongsTo('report')
 });

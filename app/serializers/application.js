@@ -2,11 +2,11 @@ import DS from 'ember-data';
 import { isNone } from '@ember/utils';
 
 export default DS.JSONSerializer.extend({
-  normalize(model, hash) {
+  normalize() {
     return this._super(...arguments);
   },
 
-  keyForRelationship(key, typeClass, method) {
+  keyForRelationship(key, typeClass) {
     if (typeClass === 'belongsTo') {
       return `${key}Id`;
     }

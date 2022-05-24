@@ -4,13 +4,15 @@
       "id": 1,
       "firstName": "Azaza",
       "lastName": "Trololo",
-      "patronymic": "фыва"
+      "patronymic": "фыва",
+      "reports": []
     },
     {
       "firstName": "Роман1",
       "lastName": "Капканниковвd",
       "patronymic": "Викторовичd",
-      "id": 2
+      "id": 2,
+      "reports": []
     }
   ],
   "books": [
@@ -22,7 +24,8 @@
       "coverUrl": "https://cdn1.ozone.ru/s3/multimedia-u/wc1200/6025550490.jpg",
       "descriptionUrl": "https://www.ozon.ru/product/2020-zov-ktulhu-138136488/?asb=BD49Kc9qr7CPGDz0fBRuodrg82LRV4k2xlunogECmVs%253D&asb2=OR2mG9C3EnIO6PbJxytOifOZll28xf7_EHxbXkvzsR9INm-57hPPoBqPKowve_88&sh=uIMTexnBhw",
       "tags": "#3",
-      "avgRating": "3"
+      "avgRating": "3",
+      "reports": []
     },
     {
       "name": "Метро 2033",
@@ -32,7 +35,8 @@
       "tags": "#2",
       "avgRating": "4",
       "id": 2,
-      "descriptionUrl": "https://www.ozon.ru/product/metro-2033-gluhovskiy-dmitriy-alekseevich-250451666/?asb=vz1Hg51TO3LwEFlWQvd9qu0%252BxGKN6a0s%252BCtFhI1HF7MWF%252BKlHzERrHUTtyS4g5%252BY&asb2=NZ3ayYnVKRDSz1i3H3KReDU7uV5IrzPmPYblXTUWIwTzm_nmLnNRNvPORgJ_H7xPytdbMzF7xCjjlozJT7Ed53NKyI4pFFJHAfU1Jky7h9EoxQSHjqfqX0a_Q6DVMS4BEtGRuA777YTCgXChufkong&sh=uIMTezDcPw"
+      "descriptionUrl": "https://www.ozon.ru/product/metro-2033-gluhovskiy-dmitriy-alekseevich-250451666/?asb=vz1Hg51TO3LwEFlWQvd9qu0%252BxGKN6a0s%252BCtFhI1HF7MWF%252BKlHzERrHUTtyS4g5%252BY&asb2=NZ3ayYnVKRDSz1i3H3KReDU7uV5IrzPmPYblXTUWIwTzm_nmLnNRNvPORgJ_H7xPytdbMzF7xCjjlozJT7Ed53NKyI4pFFJHAfU1Jky7h9EoxQSHjqfqX0a_Q6DVMS4BEtGRuA777YTCgXChufkong&sh=uIMTezDcPw",
+      "reports": []
     },
     {
       "name": "Ведьмак. Последнее желание",
@@ -42,7 +46,8 @@
       "descriptionUrl": "https://www.ozon.ru/product/vedmak-poslednee-zhelanie-sapkovskiy-andzhey-250436727/?asb=9ASLsRVTO6Y6M7j4sy1e9QKzY4HSHn5yqafmSxceVE1FxKNFbx6UJwyJEbml6HnN&asb2=D-1T8LvwVY_XrWrp96wWQKVJw5Liff63iwKGLe8SW1ulncd42o-dg9xC6OQMUfQRSj-5w-tRfbXlniTOO6NuGIz8sGJWUlAx4E3fZd9KK3XYhgXFSrScDDHUT-1mcscDJ-l3r83zDHIDBbzmS7ra6g&sh=uIMTez66rw",
       "tags": "#1",
       "avgRating": "5",
-      "id": 3
+      "id": 3,
+      "reports": []
     },
     {
       "name": "Я - легенда",
@@ -52,7 +57,25 @@
       "tags": "#4",
       "pagesCount": 421,
       "avgRating": 2,
-      "id": 4
+      "id": 4,
+      "reports": []
+    }
+  ],
+  "meetings": [
+    {
+      "id": 1,
+      "meetingDate": "2020-11-13T19:00:00.000Z",
+      "reports": []
+    }
+  ],
+  "reports": [
+    {
+      "mark": 4,
+      "presentationURL": "https://www.ozon.ru/product/2020-zov-ktulhu-138136488/?asb=BD49Kc9qr7CPGDz0fBRuodrg82LRV4k2xlunogECmVs%253D&asb2=OR2mG9C3EnIO6PbJxytOifOZll28xf7_EHxbXkvzsR9INm-57hPPoBqPKowve_88&sh=uIMTexnBhw",
+      "review": "azaza",
+      "bookId": 1,
+      "speakerId": 1,
+      "meetingId": 1
     }
   ]
 }

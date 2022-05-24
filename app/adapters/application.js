@@ -9,5 +9,14 @@ export default DS.JSONAPIAdapter.extend({
     this.set('headers', {
       'Content-Type': 'application/json'
     });
+  },
+
+  buildURL(modelName, requestType) {
+    let url = this._super(...arguments);
+    if (modelName === 'meeting') {
+      url += '?_embed=reports';
+    }
+
+    return url;
   }
 });
